@@ -12,7 +12,13 @@ public class calcrec {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Calculate the are of a triangle:");
-        System.out.println("enter your base ");
+        System.out.println("enter your base: ");
+        double base = scanner.nextDouble();
+
+        System.out.println("enter your height: ");
+        double height = scanner.nextDouble();
+        double area = calcarea(base, height);
+        System.out.println("the area fo the triangle is: " + area);
 
         scanner.close();
     }
