@@ -17,6 +17,10 @@ public class Employee {
         return basic + hr + da;
     }
 
+    public float havedata() {
+        return empno * (hr + da);
+    }
+
     public static void main(String[] args) {
 
     }
