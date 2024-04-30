@@ -1,13 +1,18 @@
 package test;
 
 import java.util.Scanner;
-// u need to import scanner fpor u to be able to recieve imports from user 
+// u need to import scanner for u to be able to recieve imports from user 
 
 public class Employee {
     int empno;
     String ename;
     float hr, da, basic, netPay;
+    /*
+     * this is the multi commenting
+     */
 
+    // Constructors are special methods used for initializing objects of a class
+    // called employee
     public Employee(int empno, String ename, float hr, float da, float basic) {
         this.empno = empno;
         this.ename = ename;
