@@ -21,9 +21,9 @@ public class Employee {
         this.basic = basic;
     }
 
+    // we create a method to calculate the netpay
     public void Calculate() {
         netPay = basic + hr + da;
-        // return basic + hr + da;
     }
 
     // public float havedata() {
