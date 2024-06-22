@@ -1,9 +1,6 @@
 package forexams;
-// Write a Java program to create a class called Animal with a method named move().
 
-//  Create a subclass called Cheetah that overrides the move() method to run.
-
-public class Animal {
+class Animal {
     // the method created
     void move() {
         System.out.println("the animals move is ");
@@ -14,12 +11,14 @@ public class Animal {
 // creating a subclass to override the move method
 class Cheetah extends Animal {
     // lets overinde the move method to do smt else
+    @Override
     void move() {
         System.out.println("lets now make the cheeta move");
     }
 
-    }
+}
 
+public class Main {
     public static void main(String[] args) {
         // so we now create a new istance of the class which is an object
         Animal p1 = new Animal();
@@ -33,3 +32,4 @@ class Cheetah extends Animal {
         p2.move();
 
     }
+}
